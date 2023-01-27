@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreDemo", "WebApplication5\CoreDemo.csproj", "{27F5D0FC-88C3-4A00-8849-F7CF05475ED8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityLayer", "EntityLayer\EntityLayer.csproj", "{BD225F93-AEBD-4CC0-823C-DA0C9D3A8940}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{50D04D76-386A-4DE0-8EAA-B039E2055D6B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{44F0FD13-866F-4202-B690-8332DBF4FF1D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreLayer", "CoreLayer\CoreLayer.csproj", "{01F3A0A0-E174-4BC5-B3FE-EE40308E1DF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jwt_coredemo", "jwt_coredemo\jwt_coredemo.csproj", "{9CB56C87-850F-4B9D-A083-A6A2E292F794}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27F5D0FC-88C3-4A00-8849-F7CF05475ED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F5D0FC-88C3-4A00-8849-F7CF05475ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F5D0FC-88C3-4A00-8849-F7CF05475ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F5D0FC-88C3-4A00-8849-F7CF05475ED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD225F93-AEBD-4CC0-823C-DA0C9D3A8940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD225F93-AEBD-4CC0-823C-DA0C9D3A8940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD225F93-AEBD-4CC0-823C-DA0C9D3A8940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD225F93-AEBD-4CC0-823C-DA0C9D3A8940}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50D04D76-386A-4DE0-8EAA-B039E2055D6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50D04D76-386A-4DE0-8EAA-B039E2055D6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50D04D76-386A-4DE0-8EAA-B039E2055D6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50D04D76-386A-4DE0-8EAA-B039E2055D6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44F0FD13-866F-4202-B690-8332DBF4FF1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44F0FD13-866F-4202-B690-8332DBF4FF1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44F0FD13-866F-4202-B690-8332DBF4FF1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44F0FD13-866F-4202-B690-8332DBF4FF1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01F3A0A0-E174-4BC5-B3FE-EE40308E1DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F3A0A0-E174-4BC5-B3FE-EE40308E1DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F3A0A0-E174-4BC5-B3FE-EE40308E1DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F3A0A0-E174-4BC5-B3FE-EE40308E1DF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CB56C87-850F-4B9D-A083-A6A2E292F794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CB56C87-850F-4B9D-A083-A6A2E292F794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CB56C87-850F-4B9D-A083-A6A2E292F794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CB56C87-850F-4B9D-A083-A6A2E292F794}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {813622EE-A154-4F51-8B97-A94EAFC70519}
+	EndGlobalSection
+EndGlobal

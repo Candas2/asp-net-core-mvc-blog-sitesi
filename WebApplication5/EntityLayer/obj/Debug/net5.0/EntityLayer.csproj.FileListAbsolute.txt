@@ -1,0 +1,12 @@
+C:\Users\Canda\source\repos\WebApplication5\EntityLayer\bin\Debug\net5.0\EntityLayer.deps.json
+C:\Users\Canda\source\repos\WebApplication5\EntityLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\Canda\source\repos\WebApplication5\EntityLayer\bin\Debug\net5.0\ref\EntityLayer.dll
+C:\Users\Canda\source\repos\WebApplication5\EntityLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\Canda\source\repos\WebApplication5\EntityLayer\obj\Debug\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Canda\source\repos\WebApplication5\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\Canda\source\repos\WebApplication5\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfo.cs
+C:\Users\Canda\source\repos\WebApplication5\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Canda\source\repos\WebApplication5\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
+C:\Users\Canda\source\repos\WebApplication5\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
+C:\Users\Canda\source\repos\WebApplication5\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
+C:\Users\Canda\source\repos\WebApplication5\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache

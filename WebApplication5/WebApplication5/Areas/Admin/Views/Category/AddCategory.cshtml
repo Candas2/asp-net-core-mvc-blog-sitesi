@@ -1,0 +1,20 @@
+﻿@model EntityLayer.Concrete.Category
+@{
+    ViewData["Title"] = "AddCategory";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<h1>Yeni Kategori Girişi</h1>
+<br />
+@using (Html.BeginForm("AddCategory", "Category", FormMethod.Post))
+{
+    @Html.Label("Kategori Adı*")
+    @Html.TextBoxFor(X => X.CategoryName, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.CategoryName, "", new { @class = "text-danger" })
+    <br /><br />
+    @Html.Label("Kategori Açıklaması*")
+    @Html.TextAreaFor(X => X.CategoryDescription, 10, 3, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.CategoryDescription, "", new { @class = "text-danger" })
+    <br /><br />
+    <button class="btn btn-primary">Kaydet</button>
+}

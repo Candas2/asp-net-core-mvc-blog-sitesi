@@ -1,0 +1,43 @@
+﻿@using CoreDemo.Models
+@model UserUpdateViewModel
+
+
+@{
+    ViewData["Title"] = "WriterEditProfile";
+    Layout = "~/Views/Shared/WriterLayout.cshtml";
+}
+
+
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Yazar Profili Düzenleme</h4>
+                <br />
+                <form class="forms-sample" method="post">
+                    <div class="form-group">
+                        <label for="exampleInputName1">Ad Soyad</label>
+                        <input type="text" class="form-control" id="exampleInputName1" asp-for="@Model.namesurname" placeholder="Ad Soyad">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputName1">Kullanıcı Adı</label>
+                        <input type="text" class="form-control" id="exampleInputName1" asp-for="@Model.username" placeholder="Kullanıcı Adı">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail3">E-mail adresi</label>
+                        <input type="email" class="form-control" id="exampleInputEmail3" asp-for="@Model.mail" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail3">Yeni Şifre</label>
+                        <input type="password" class="form-control" id="exampleInputEmail3" asp-for="@Model.password" placeholder="Şifre">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail3">Resim Yolu</label>
+                        <input type="text" class="form-control" asp-for="@Model.imageurl" placeholder="Resim Yolu">
+                    </div>
+
+                    <button type="submit" class="btn btn-gradient-primary mr-2">Güncelle</button>
+                    <button class="btn btn-light">İptal</button>
+                </form>
+            </div>
+        </div>
+    </div>
